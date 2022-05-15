@@ -1,0 +1,269 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Kickbox Add-On\n"
+"POT-Creation-Date: 2022-05-10 21:49+0300\n"
+"PO-Revision-Date: 2022-05-08 10:42+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: kickbox-gf.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: class-kickbox-gf-addon.php:70
+msgid "Kickbox Settings"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:74
+msgid "Enter your API key here"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:78
+msgid "Kickbox API Key"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:80 class-kickbox-gf-addon.php:646
+#: class-kickbox-gf-addon.php:676
+msgid "Documentation"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:86
+msgid "Disable Kickbox Verification"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:87
+msgid ""
+"Tick this if you want to disable Kickbox Verifications globally, even if "
+"they are enabled in forms."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:92 class-kickbox-gf-addon.php:227
+#: class-kickbox-gf-addon.php:532
+msgid "Disabled"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:102
+msgid "Verification Results Caching Settings"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:103
+msgid ""
+"Enable this setting if you want to cache Kickbox Verification Results and "
+"store them in the database. This will allow you to avoid excessive checking "
+"when multiple submissions from the same user are expected."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:106
+msgid "Enable Kickbox Verification Results Caching"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:111 class-kickbox-gf-addon.php:143
+msgid "Enabled"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:118
+msgid "Caching Duration (in days)"
+msgstr ""
+
+#. translators: 1: Number of days
+#: class-kickbox-gf-addon.php:121
+#, php-format
+msgid "Default duration is %1$s days."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:130
+msgctxt "Cache is a verb here"
+msgid "Cache Domains"
+msgstr ""
+
+#. translators: 1, 2, 4: Email addresses 3: Domain name
+#: class-kickbox-gf-addon.php:133
+#, php-format
+msgid ""
+"Emails are used as cache keys. By default this will verify both %1$s and "
+"%2$s. When enabled, verifications will be cached for %3$s and %4$s will not "
+"be verified."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:162
+msgid ""
+"Verification configuration allows you to choose what you can afford to "
+"receive as a valid response from Kickbox."
+msgstr ""
+
+#. translators: Name of a predefined configuration choice
+#: class-kickbox-gf-addon.php:170 class-kickbox-gf-addon.php:540
+msgid "Strict"
+msgstr ""
+
+#. translators: 1: Response result type named 'deliverable'
+#. 2: Sendex value
+#.
+#: class-kickbox-gf-addon.php:179
+#, php-format
+msgid "allows %1$s emails only with Sendex of %2$s and higher."
+msgstr ""
+
+#. translators: Name of a predefined configuration choice
+#: class-kickbox-gf-addon.php:189 class-kickbox-gf-addon.php:544
+msgid "Permissive"
+msgstr ""
+
+#. translators: 1: Response result type named 'deliverable'
+#. 2: Response result type named 'risky'
+#. 3: Response result type named 'unknown'
+#. 4: Sendex value
+#.
+#: class-kickbox-gf-addon.php:200
+#, php-format
+msgid ""
+"allows emails with result types %1$s, %2$s and %3$s with Sendex of %4$s and "
+"higher."
+msgstr ""
+
+#. translators: Name of a predefined configuration choice
+#: class-kickbox-gf-addon.php:212 class-kickbox-gf-addon.php:548
+#: class-kickbox-gf-addon.php:624 class-kickbox-gf-addon.php:631
+msgid "Custom"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:216
+msgid "allows you to set everything up (see section below)."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:231
+msgid "doesn't override the configuration from the plugin settings."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:357
+msgid "Verify the value from this field via Kickbox"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:582 class-kickbox-gf-addon.php:634
+#: class-kickbox-gf-addon.php:705
+msgid "Use these settings to override the plugin defaults."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:587
+msgid "Configuration type on the plugin settings page:"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:594
+msgid "Kickbox Verification Settings"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:597
+msgid "Verification Configuration"
+msgstr ""
+
+#. translators: Name of a predefined configuration choice
+#: class-kickbox-gf-addon.php:623
+#, php-format
+msgid ""
+"These settings work if %1$s is chosen as the Verification Configuration "
+"above."
+msgstr ""
+
+#. translators: Name of a predefined configuration choice
+#: class-kickbox-gf-addon.php:630
+#, php-format
+msgid ""
+"These settings work if %1$s is chosen as the Verification Configuration "
+"above or on the plugin settings page."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:638
+msgid "Custom Configuration Settings"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:642
+msgid ""
+"Choose which Kickbox result types are considered valid (will not result in a "
+"validation error)."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:645
+msgid "Valid Kickbox Result Types"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:675
+msgid "Minimal Sendex Value"
+msgstr ""
+
+#. translators: default Sendex value
+#: class-kickbox-gf-addon.php:680
+#, php-format
+msgid ""
+"Count emails with such Sendex value or lower as not valid. Please use a "
+"value between 0 and 1. Default is %s."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:702
+msgid ""
+"Specify error messages to show when Kickbox verifies an email as not valid."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:709
+msgid "Error Messages"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:713
+msgid "Generic Error Message"
+msgstr ""
+
+#: class-kickbox-gf-addon.php:716
+msgid ""
+"Specifying error messages for specific Kickbox result reasons is available "
+"to developers via filters."
+msgstr ""
+
+#: class-kickbox-gf-addon.php:719
+msgid "Suggested Email Error Message"
+msgstr ""
+
+#. translators:
+#. 1: An example of email correction
+#. 2, 3: Suggested Email placeholder
+#. 4: Current/Default error message
+#.
+#: class-kickbox-gf-addon.php:726
+#, php-format
+msgid ""
+"This error message will be shown when a suggested email is returned if a "
+"possible spelling error was detected (%1$s). Use %2$s in the message, it'll "
+"be replaced with the one from Kickbox. Example: %3$s seems more like it."
+msgstr ""
+
+#. translators: A suggested email
+#: class-kickbox-gf-error-messages.php:17
+#, php-format
+msgid "Did you mean %s?"
+msgstr ""
+
+#: class-kickbox-gf-error-messages.php:74
+msgid "There seems to be an issue with your email address."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Gravity Forms Kickbox Add-On"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Enhance Gravity Forms with email verification via Kickbox."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alex Bondarev"
+msgstr ""

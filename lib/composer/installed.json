@@ -1,0 +1,59 @@
+{
+    "packages": [
+        {
+            "name": "skip405/kickbox-wordpress",
+            "version": "v1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skip405/kickbox-wordpress.git",
+                "reference": "07e73af2ea2bc964d1878f729d656d26a151d396"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skip405/kickbox-wordpress/zipball/07e73af2ea2bc964d1878f729d656d26a151d396",
+                "reference": "07e73af2ea2bc964d1878f729d656d26a151d396",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "wp-coding-standards/wpcs": "2.*"
+            },
+            "time": "2022-05-14T09:34:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Skip405\\Kickbox\\WordPress\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "skip405",
+                    "email": "skip405@gmail.com"
+                }
+            ],
+            "description": "This package provides a Kickbox Email Verification API-client that uses WordPress HTTP-requests functions. Ideal if you want to employ Kickbox email verification in a WordPress plugin or theme.",
+            "keywords": [
+                "email verification",
+                "kickbox",
+                "wordpress"
+            ],
+            "support": {
+                "email": "skip405@gmail.com",
+                "issues": "https://github.com/skip405/kickbox-wordpress/issues",
+                "source": "https://github.com/skip405/kickbox-wordpress/tree/v1.0.3"
+            },
+            "install-path": "../skip405/kickbox-wordpress"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

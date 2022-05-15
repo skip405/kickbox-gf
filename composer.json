@@ -1,0 +1,11 @@
+{
+  "require": {
+    "skip405/kickbox-wordpress": "*"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "2.*"
+  },
+  "config": {
+    "vendor-dir": "lib"
+  }
+}
