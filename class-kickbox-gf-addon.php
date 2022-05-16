@@ -47,7 +47,7 @@ class Kickbox_GF_Addon extends GFAddOn {
 		parent::init();
 
 		add_action( 'gform_field_advanced_settings', array( $this, 'add_field_setting' ), 10, 2 );
-		add_filter( 'gform_validation', array( $this, 'verify_via_kickbox' ), apply_filters( 'kickbox_gf_verification_priority', 11 ) );
+		add_filter( 'gform_validation', array( $this, 'verify_via_kickbox' ), apply_filters( 'kickbox_gf_validation_priority', 11 ) );
 		add_action( 'gform_editor_js', array( $this, 'editor_script' ) );
 
 		add_action( Kickbox_GF_Cache::CRON_ACTION, array( 'GFKickboxCache', 'prune_old_verifications' ) );

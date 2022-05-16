@@ -25,6 +25,8 @@ class Kickbox_GF_Cache {
 
 		$stored_verifications = get_option( self::DATABASE_KEY );
 
+		do_action( 'kickbox_gf_verifications_before_pruning', $stored_verifications );
+
 		if ( empty( $stored_verifications ) ) {
 			return;
 		}
