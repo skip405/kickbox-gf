@@ -110,7 +110,7 @@ class Kickbox_GF_Cache {
 			$cache_key = $email_parts[1];
 		}
 
-		return apply_filters( 'kickbox_gf_verification_cache_key', $cache_key );
+		return apply_filters( 'kickbox_gf_verification_cache_key', $cache_key, $email );
 	}
 
 	/**
